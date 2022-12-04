@@ -1,0 +1,855 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dfe6e9;
+    font-family: Lato,sans-serif;
+    margin: auto;
+}
+
+.navbar{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 10px 70px;
+background-color: white;
+margin: auto;
+}
+
+.title{
+    width: 60%;
+    margin: auto;
+    padding: 25px 0px;
+}
+.title_container{
+    background-color: white;
+    width: 60%;
+    height: 250px;
+    margin: 15px auto;
+    text-align: center;
+    padding: 10px 15px;
+ 
+}
+.Elon_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  
+    
+}
+.title_container_border{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(162, 155, 254);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}    
+.spend{
+    color: #a29bfe;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+   
+    
+}
+.total {
+    width: 60%;
+    margin: 0px auto 10px;
+    text-align: center;
+    background-color: rgb(108, 92, 231);
+    padding: 0px 15px;
+    position: sticky;
+    top: 5px;
+    z-index: 999;
+    box-shadow: rgb(108 92 231) 0px 25px 20px -15px;
+    margin: auto;
+}
+    
+
+  
+  
+  .totalMoney {
+    color: #fff;
+    margin: 0;
+    padding: 15px 0;
+    font-size: 30px;
+    font-family: Lato,sans-serif;
+  }
+
+ .box{
+    
+    width: 60%;
+    text-align: center;
+    margin: auto auto 20px;
+    padding: 0px 15px;
+
+ }
+.box_card{
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    box-shadow: rgb(120 120 120 / 35%) 1.95px 1.95px 2.6px;
+    width: 250px;
+    
+    
+}
+
+.box_card:hover{
+    transform: translateY(-1px);  
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box_card_title{
+    width: 90%;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+}
+.BigMac{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.BigMac_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.BigMac_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+.box_card_end{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button_1{
+    padding: 8px 10px;
+    width: 30%;
+    border: none;
+    background-color: rgb(220, 220, 220);
+    border-radius: 2px;
+    color: white;
+    font-weight: 700;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.input{
+    width: 30%;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(162, 155, 254);
+    text-align: center;
+    outline-color: rgb(220, 220, 220);
+   
+}
+.button_2{
+    width: 30%;
+    padding: 8px 25px;
+    border: none;
+    background-color: rgb(162, 155, 254);
+    border-radius: 2px;
+    color: white;
+    font-weight: 700;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    cursor: pointer;
+}
+.FlipFlops{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.FlipFlops_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.FlipFlops_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+.MovieTicket{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.MovieTicket_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.MovieTicket_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.Book{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Book_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Book_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+.LobsterDinner{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.LobsterDinner_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.LobsterDinner_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+.VideoGame{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.VideoGame_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.VideoGame_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+
+.AmazonEcho{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.AmazonEcho_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.AmazonEcho_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+
+.YearOfNetflix{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.YearOfNetflix_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.YearOfNetflix_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+
+.AirJordans{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.AirJordans_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.AirJordans_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+
+
+.Airpods{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Airpods_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Airpods_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+
+
+.GamingConsole{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.GamingConsole_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.GamingConsole_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+
+.Drone{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Drone_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Drone_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+.Smartphone{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Smartphone_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Smartphone_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+
+.Bike{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Bike_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Bike_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+
+.Horse{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Horse_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Horse_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+
+.AcreOfFarmland{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.AcreOfFarmland_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.AcreOfFarmland_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+
+
+.DesignerHandbag{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.DesignerHandbag_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.DesignerHandbag_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.HotTub{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.HotTub_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.HotTub_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+
+.DiamondRing{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.DiamondRing_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.DiamondRing_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.JetSki{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.JetSki_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.JetSki_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.Rolex{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Rolex_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Rolex_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.FordF150{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.FordF150_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.FordF150_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.Tesla{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Tesla_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Tesla_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+.MonsterTruck{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.MonsterTruck_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.MonsterTruck_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.Ferrari{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Ferrari_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Ferrari_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.McDonaldsFranchise{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.McDonaldsFranchise_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.McDonaldsFranchise_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+
+.SuperbowlAd{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.SuperbowlAd_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.SuperbowlAd_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.Yacht{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Yacht_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Yacht_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.M1Abrams{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.M1Abrams_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.M1Abrams_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.Formula1Car{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Formula1Car_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Formula1Car_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+.ApacheHelicopter{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.ApacheHelicopter_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.ApacheHelicopter_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.Mansion{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Mansion_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Mansion_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+.MakeaMovie{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.MakeaMovie_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.MakeaMovie_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+
+.Boeing747{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Boeing747_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Boeing747_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.MonaLisa{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.MonaLisa_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.MonaLisa_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+.Skyscraper{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.Skyscraper_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.Skyscraper_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.CruiseShip{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.CruiseShip_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.CruiseShip_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+
+.NBATeam{
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+}
+.NBATeam_word{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.NBATeam_word_2{
+    opacity: 0.6;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+
+.Container_total:hover{
+    transform: translateY(-1px);  
+    opacity: 0.9;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;  
+}
+
+
+
